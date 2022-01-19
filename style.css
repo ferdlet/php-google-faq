@@ -54,7 +54,7 @@ li.active a {
 }
 
 main {
-    margin: 100px;
+    margin-top: 100px;
 }
 
 main .container {
@@ -91,4 +91,34 @@ h2.question {
 footer {
     padding: 20px 10px;
     background-color: lightgray;
+}
+
+footer .container {
+    max-width: 978px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .container nav ul {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+}
+
+footer .container nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 12px;
+}
+
+footer .container nav ul li {
+    
+}
+
+footer .container nav ul li i {
+    font-size: 3px;
+    vertical-align: middle;
+    margin-right: 5px;
 }

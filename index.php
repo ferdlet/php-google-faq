@@ -11,7 +11,7 @@ $faqs = [
     ],
     [
         "question" => "Perché il mio account è associato a un paese?",
-        "answer" => "Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose<ol><li>La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per iconsumatori tramite una delle due società seguenti:<ol><li>Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</li><li>Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li></ol></li><li>La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.</li></ol>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account."
+        "answer" => "Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:<br><ol><li>La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per iconsumatori tramite una delle due società seguenti:<ol><li>Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</li><li>Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li></ol></li><li>La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.</li></ol>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account."
     ],
     [
         "question" => "Stabilire il paese associato al tuo account",
@@ -84,9 +84,35 @@ $faqs = [
     </main>
 
     <footer>
-        <nav>
-
-        </nav>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Google
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fas fa-circle"></i>
+                        <a href="#">
+                            Tutto su Google
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fas fa-circle"></i>
+                        <a href="#">
+                            Privacy
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fas fa-circle"></i>
+                        <a href="#">
+                            Termini
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </footer>
 </body>
 
